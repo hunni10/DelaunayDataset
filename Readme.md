@@ -15,3 +15,7 @@ It means that first point is `(0.91628828, 0.94290589)`, second point is `(0.804
   * `delaunay_(n)_sorted.txt` are used for experiment of proposed ordering
 * Every file has 1M lines (1M sample).
 * Input points are chosen randomly in \[0\~1\] X \[0\~1\].
+
+
+
+Note these .txt file are pretty big (about 6 GB in total), and then were uploaded by using git LFS.
