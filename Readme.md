@@ -1,10 +1,9 @@
-# Delaunay Triangulation Dataset for Pointer Networks
+# Dataset for Training Delaunay Triangulation
 
-Made by Jibum Kim (jibumkim@inu.ac.kr), Woojin Choi (john1920@inu.ac.kr), and Jaeseung Lee (hunni10@inu.ac.kr) for [our paper](https://arxiv.org/abs/2107.01759) experiment
 
-## Data Structure
+### Brief Description of Our Dataset
 
-Our dataset contains 1M training samples of a Delaunay triangulation. It follows the same format as [Vinyal’s “Pointer Network” dataset](http://goo.gl/NDcOIG)
+Our dataset contains 1M training samples of a Delaunay triangulation. It follows the same format as [Vinyal’s “Pointer Network” dataset](http://goo.gl/NDcOIG). This dataset is used for training and evaluation of the proposed neural network model (https://arxiv.org/abs/2107.01759).
 
 Input: 2D Cartesian coordinates of the points (x, y)
 
@@ -34,3 +33,5 @@ If you use our dataset in your research, please consider citing
          archivePrefix={arXiv},
          primaryClass={cs.CG}
     }
+## Contact
+If you have any questions regarding this dataset, please contact to Jibum Kim (jibumkim@inu.ac.kr) or Jaeseung Lee (hunni10@inu.ac.kr).
