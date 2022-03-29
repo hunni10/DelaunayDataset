@@ -28,7 +28,7 @@ In this example, the inputs are planar point sets {P1,…, P5}. The first point,
 
 Input: 2D Cartesian coordinates of the points (x, y). These mean cities in TSP.
 
-Output: sequence of city that represents TSP Tour (acquired from [heuristic algorithms](https://github.com/beckysag/traveling-salesman)).
+Output: sequence of city that represents TSP Tour (acquired from [Christofides’ algorithm](https://github.com/beckysag/traveling-salesman)).
 
 For example,
 
@@ -36,7 +36,7 @@ For example,
 
 In this example, the inputs are planar point sets {P1,…, P5}. The first point, P1=(0.36377419, 0.59624464), second point, P2=(0.37839254, 0.18816579),…, P5=(0.95521193, 0.94703185). The output, (1, 2, 3, 5, 4), is a sequence that represents the TSP Tour of its input. Note that it suppose traveler to go back at last city to first city.
 
-* Output sequences are obtained from [heuristic algorithms](https://github.com/beckysag/traveling-salesman)
+* Output sequences are obtained from [Christofides’ algorithm](https://github.com/beckysag/traveling-salesman)
 * `tsp_50_random.txt` are used for experiment of random ordering.
 * `tsp_50_sorted.txt` are used for experiment of our proposed ordering.
 * Every file has 1M lines (1M sample).
